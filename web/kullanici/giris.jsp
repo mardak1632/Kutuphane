@@ -9,9 +9,19 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Kullanıcı İşlemleri</title>
+        <style type="text/css">
+        body
+        { 
+            background: url(../icon/kulube.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>                        
     </head>
-    <body background="http://www.hdwallpapers.in/walls/beautiful_landscape-wide.jpg">
-        <form method="POST" action="kontrol.jsp">
+    <body>
+        <form method="POST" action="giriskontrol.jsp">
             <table style="margin: 0 auto;">
                 <tr>
                     <td>E-mail : </td>
